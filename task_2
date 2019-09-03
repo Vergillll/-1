@@ -1,0 +1,13 @@
+print("Input coordinates")
+print("input A")
+a = float(input())
+print("input B")
+b = float(input())
+print("input C")
+c = float(input())
+ac = abs(a-c)
+bc = abs(b-c)
+sum = ac + bc
+print("ac = "+str(ac))
+print("bc = "+str(bc))
+print("sum = "+str(sum))
