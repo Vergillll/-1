@@ -1,0 +1,14 @@
+print("input x1")
+x1 = float(input())
+print("input y1")
+y1 = float(input())
+print("input x2")
+x2 = float(input())
+print("input y2")
+y2 = float(input())
+#Найдём стороны прямоугольника
+storona1 = abs(x1-x2)
+storona2 = abs(y1-y2)
+S = storona1 * storona2
+P = (storona1 + storona2)*2
+print("S = "+str(S)+" P = "+str(P))
