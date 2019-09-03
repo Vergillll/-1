@@ -1,0 +1,14 @@
+print("Input coordinates")
+print("input A")
+a = float(input())
+print("input C")
+c = float(input())
+print("input B")
+b = float(input())
+if a < c and b > c:
+    ac = abs(a-c)
+    bc = abs(b-c)
+    proizved = ac * bc
+print("ac = "+str(ac))
+print("bc = "+str(bc))
+print("proizved = "+str(proizved))
