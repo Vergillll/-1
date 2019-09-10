@@ -5,7 +5,7 @@ print("input C")
 c = float(input())
 print("input B")
 b = float(input())
-if a < c and b > c:
+if a < c and b > c or b < c and c < a:
     ac = abs(a-c)
     bc = abs(b-c)
     proizved = ac * bc
