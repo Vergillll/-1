@@ -11,19 +11,24 @@ print("input c_x")
 c_x = float(input())
 print("input c_y")
 c_y = float(input())
+
 #Примечание: Решим задачу с помощью прямоугольных треугольников.
+
 katet_ab1 = abs(a_x - b_x)
 katet_ab2 = abs(a_y - b_y)
 ab = math.sqrt(katet_ab1**2 + katet_ab2**2)
 #print("ab = "+str(ab))
+
 katet_bc1 = abs(b_x - c_x)
 katet_bc2 = abs(b_y - c_y)
 bc = math.sqrt(katet_bc1**2 + katet_bc2**2)
 #print("bc = "+str(bc))
+
 katet_ac1 = abs(a_x - c_x)
 katet_ac2 = abs(a_y - c_y)
 ac = math.sqrt(katet_ac1**2 + katet_ac2**2)
 #print("ac = "+str(ac))
+
 P = ab + bc + ac
 p = (ab + bc + ac)/2
 print("P = "+str(P))
